@@ -12,4 +12,4 @@ Parts needed to build this project:
   - 10k ohm Potentiometer 
   - Arduino Pulse Sensor 
 
-If you are intersted in building this project, please see the design breif in the repository to find the project schematic. 
+If you are intersted in building this project, please see the design breif in the repository to find the project schematic. You will need to download the Arduino IDE, and upload the heartratemonitor_sketch_v1 file to your Arduino.
