@@ -12,4 +12,4 @@ Parts needed to build this project:
   - 10k ohm Potentiometer 
   - Arduino Pulse Sensor 
 
-There is an image of the project schematic in this repository if you want to try building this project.  
+If you are intersted in building this project, please see the design breif in the repository to find the project schematic. 
