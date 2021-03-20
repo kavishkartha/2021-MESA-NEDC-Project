@@ -9,7 +9,7 @@ Parts needed to build this project:
   - Male to Male Jumper Wries 
   - Male to Female Jumper Wires
   - 164 mm x 54 mm Breadboard (My team attached two 82 mm x 54 mm breaboards together)
-  - 10k ohm Poteniometer 
+  - 10k ohm Potentiometer 
   - Arduino Pulse Sensor 
 
 There is an image of the project schematic in this repository if you want to try building this project.  
