@@ -1,5 +1,7 @@
 #include <LiquidCrystal.h>
 
+// Credits to TechnolabCreation for the code.
+
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
@@ -200,10 +202,10 @@ ISR(TIMER2_COMPA_vect) //triggered when Timer2 counts to 124
       firstBeat = true;                      // set these to avoid noise
       secondBeat = false;                    // when we get the heartbeat back
     }
-
+  // Code implemented by my team. 
   if (BPM > 100)
     {
-      lcd.print("Take a deep breath. Your heart rate has exceeded 100 BPM.");
+      lcd.print("Take a deep breath. Your heart rate has exceeded 100 BPM."); // Alerts user if thier herat rate exceeds 100 BPM 
     }
   sei();                                   // enable interrupts when youre done!
 }// end isr
